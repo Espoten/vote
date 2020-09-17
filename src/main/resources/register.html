@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户注册页面</title>
+		<link href="../css/register.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+	</head>
+	<style>
+		.form ul,li{
+			list-style: none;
+		}
+	</style>
+	<body>
+		<div class="body">
+		<form class="form" action="#" method="post" name="form">
+		<ul>
+			<li class="one">
+				<h2>用户注册</h2>
+				
+				
+			</li>
+			<li class="one">
+				<span>用户名:</span>
+				<input type="text" id="name" name="name" required="required" />
+			</li>
+			<li class="one">
+				<span>密码:</span>
+				<input type="password" id="password" name="password" required="required" />
+			</li>
+			<li class="one">
+				<span>邮箱:</span>
+				<input type="email" id="email" name="email" required="required" />
+			</li>
+			<li class="two">
+				<span>性别:</span>
+				<input type="radio" id="male" name="sex" required="required" />
+				<label for="male">男</label>
+				<input type="radio" id="female" name="sex"  />
+				<label for="female">女</label>
+			</li>
+			<li class="one">
+				<span>年龄:</span>
+				<input type="number" name="age" required="required" />
+			</li>
+			<li>
+				</ul>
+				<div align="center">
+				<button class="btn" type="button" >立即注册</button>
+				</div>
+			</li>
+		
+		</form>
+		</div>
+	</body>
+</html>
